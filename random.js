@@ -4,7 +4,7 @@ var getRand;
 //Settings
 var settings = {
 	changeThresh : 0.1,
-	totalClips  : 29,
+	totalClips  : 27,
 	pathToClips : "data/",
 	pbRate : 1,
 	mode : 'random',
