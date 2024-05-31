@@ -21,7 +21,8 @@ let rptTracker = 0;
 var gui = new dat.GUI();
 // gui.add(settings, 'changeThresh').name("Cut Thresh (sec)");
 gui.add(settings, 'totalClips').name("Total # of clips");
-gui.add(settings, 'mode', [ 'linear', 'random', 'non-repeating-rand', 'random-playthrough' ] ).name("Playback Mode");
+// gui.add(settings, 'mode', [ 'linear', 'random', 'non-repeating-rand', 'random-playthrough' ] ).name("Playback Mode");
+gui.add(settings, 'mode', [ 'random' ] ).name("Playback Mode");
 gui.add(settings, 'pathToClips').name("Clips Folder");
 // gui.add(settings, 'pbRate', 0,3).name("Playback Speed").step(0.25);
 
